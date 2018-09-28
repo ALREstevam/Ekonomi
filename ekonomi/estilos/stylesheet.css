@@ -1,0 +1,652 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url('fonts/Roboto-Thin.ttf');
+}
+
+html, body { margin:0; height: 100%;}
+
+body{
+    color: #0a0a0a;
+    font-family: RobotoRegular, Arial, sans-serif;
+    font-size: 13pt;
+    text-align: justify;
+    letter-spacing: 0.00cm;
+
+
+
+    background-color: #414344;
+    background-image: url("../imagens/background.png");
+    background-repeat: inherit;
+}
+
+h1{
+    color: #0a0a0a;
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size:43pt;
+}
+
+h2{
+    color: #0a0a0a;
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size:30pt;
+     text-align: left;
+}
+h3{
+    color: #0a0a0a;
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size:18pt;
+    text-align: left;
+
+}
+
+
+h4{
+
+    color: #0a0a0a;
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size:27pt;
+    text-align: left;
+   text-decoration: underline ;
+    font-style: oblique;
+}
+
+
+
+.imagem{
+    width: 80%;
+    height: auto;
+    margin: 30px;
+    vertical-align: middle;
+
+}
+
+.img_not{
+    width: 100%;
+
+    height: auto;
+
+}
+
+
+
+.caixa{
+    float: left;
+    height:400px;
+    width:auto;
+    margin-right:  30px;
+
+}
+
+
+a#download_button{
+
+    background-image: url("../imagens/download01.png");
+    /* float: right; */
+
+    width: 150px;
+    height: 150px;
+
+
+
+
+    margin-top: 50px;
+    background-size: cover;
+
+    display: block;
+    border-radius: 100%;
+    border: solid 5px rgba(213, 213, 213, 0.71);
+
+    transition: background-image 0.2s ease-in;
+
+
+
+
+
+
+
+}
+a#download_button:hover{
+    background-image: url("../imagens/download02.png");
+
+}
+
+
+b{
+
+    font-size: 19pt;
+    font-stretch: extra-expanded;
+
+}
+
+.erro_cadastro{
+    color: red;
+    font-size: 10pt;
+    font-style: italic;
+
+}
+
+
+
+
+
+
+div#cabecalho {
+
+    background-color: #13171C;
+    width: 100%;
+    height: 200px;
+
+
+    margin-top: -20px;
+    margin-left: 0px;
+    margin-right: -100px;
+
+}
+
+
+
+
+.conteudo{
+
+
+
+    min-height: 800px;
+   /* height:auto !important; */
+
+    background-color: rgba(236, 246, 239, 0.97);
+
+    margin-left: 7%;
+
+
+    display: block;
+    width: 52%;
+
+
+
+
+    float: left;
+
+     padding: 25px;
+
+
+    border-left: solid 5px #13171C;
+    border-top: solid 5px #13171C;
+
+
+}
+
+aside#noticia{
+    background-color: rgba(236, 246, 239, 0.97);
+
+    min-height: 800px;
+    display: block;
+
+   // max-width: 400px;
+    width: 28%;
+
+    float: left;
+
+    padding: 15px;
+
+    border-left: solid 3px #13171C;
+    border-top: solid 5px #13171C;
+
+    overflow: scroll;
+    overflow-x: hidden;
+    box-shadow:16px 0px 30px 0px rgba(0, 0, 0, 0.36);
+
+
+
+}
+
+
+footer#rodape{
+    clear: both;
+
+}
+
+
+
+
+
+
+div#logotipo_nome{
+    background-image:url("../imagens/ekonomi.png");
+    background-size: contain;
+
+    height: 105%;
+    width: 75%;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+div#logotipo_imagem{
+    display: block;
+
+    margin-left: -8px;
+
+   background-image: url("../imagens/porco_cofrinho.png");
+
+
+    width: 190px;
+    height: 190px;
+
+    background-size: cover;
+    position:absolute;
+    z-index:999;
+    overflow:hidden;
+
+    transition: box-shadow 1s, width 1s, height 1s, background 10s ease-in;
+
+
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+
+    border-right: solid rgb(211, 211, 211) 8px;
+    border-bottom: solid rgb(211, 211, 211) 8px;
+    border-top: solid rgb(211, 211, 211) 8px;
+    border-left: solid rgb(211, 211, 211) 8px;
+
+    background-color: #192b4c;
+
+}
+div#logotipo_imagem:hover{
+   /*
+    background-image: url("../imagens/porco_cofrinho - Copia.png");
+    */
+}
+
+
+div#login{
+
+    width:250px;
+    height:60px;
+
+    top: 0px;
+    right: 0px;
+    background-color:#13171C;
+
+    padding-top: 10px;
+
+    position: absolute;
+    z-index:999;
+    overflow:hidden;
+    transition: height 1s ease-in, width 0.5s ease-in, border-bottom 0.5s ease-in,  border-left 0.5s ease-in,  border-right 0.5s ease-in;
+
+    text-align: center;
+
+    border-bottom: solid #ee493d;
+    border-left: solid #ee493d;
+    border-right: solid #ee493d;
+
+
+
+}
+
+div#login:hover{
+    /*
+    width:420px;
+    height:259px;
+    */
+
+    border-bottom: solid #1b83ff;
+    border-left: solid #1b83ff;
+    border-right: solid #1b83ff;
+
+}
+
+div#fotologin{
+
+    width:80px;
+    height:80px;
+
+    padding: 10px;
+
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-top: -5px;
+
+    position: relative;
+    float: left;
+    background-image: url("../imagens/user_flat.png");
+    background-size: cover;
+
+
+    border: 5px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #cccccc;
+
+
+
+
+}
+
+
+.user_img{
+    background-color: rgba(0, 208, 209, 1);
+    border-radius: 100px;
+    border-style: solid;
+    border-color: rgba(213, 213, 213, 0.71);
+
+
+    border-width: 8px;
+    padding: 10px;
+
+    width: 80px;
+    height: 80px;
+
+    transition:  border 0.2s, background 0.5s;
+    margin-top: 20px;
+}
+
+
+.user_img:hover{
+
+    border-color: rgba(213, 213, 213, 0.71);
+    background-color: #0099CC;
+
+}
+
+
+.div_marcafoto{
+    background-image: url("../imagens/checked.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    float: left;
+    z-index:999;
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: -160px;
+    margin-left: 30px;
+
+
+}
+
+
+.login_texto{
+
+    margin-top: 10px;
+    width: 220px;
+    font-size: 14pt;
+    background-color: #cccccc;
+    border: none;
+    color: #000000;
+    font-family: RobotoRegular, Arial, sans-serif;
+    border: 5px;
+    padding: 5px;
+    margin: 5px;
+
+
+    border-radius:4px;
+    box-shadow: 2px 2px 2px rgba(16, 16, 16, 0.66);
+
+
+
+    border:hidden;
+    outline:none;
+
+
+}
+
+
+
+
+
+input#logar{
+
+    background-color: #0096de;
+    color:#ffffff;
+    border:hidden;
+    width:320px;
+    height:40px;
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size:20px;
+
+
+    outline:none;
+
+    box-shadow: 2px 2px 2px rgba(16, 16, 16, 0.58);
+
+    transition: box-shadow 0.5s;
+
+    border-radius: 100px;
+
+
+}
+
+
+input#logar:hover{
+    background:#0099CC;
+    cursor:pointer;
+    box-shadow: 0px 1px 10px rgba(0, 153, 204, 0.50);  }
+
+
+
+
+div#login a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family:RobotoRegular, Arial, sans-serif;
+    font-size: 10pt;
+
+}
+div#login a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+div#login_logado a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: RobotoRegular, Arial, sans-serif;
+    font-size: 10pt;
+
+}
+div#login_logado a:hover{
+    text-decoration: underline;
+}
+
+
+/* MENU */
+
+nav#menu ul{
+
+    -webkit-box-shadow: 11px 0px 29px 0px rgba(50, 50, 50, 0.36);
+    -moz-box-shadow:    11px 0px 29px 0px rgba(50, 50, 50, 0.36);
+    box-shadow:         11px 0px 29px 0px rgba(50, 50, 50, 0.36);
+
+
+
+    float: left;
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size: 18pt;
+    list-style: none;
+    text-transform: uppercase;
+    top: -25px;
+    left: -240px;
+
+    width: 285px;
+
+    color: #ffffff;
+    position:fixed;
+    z-index:999;
+    padding:6px;
+
+
+    background-color: rgba(63, 90, 115, 0.32);
+    height: 100%;
+
+    transition: background-color 0.3s ease-out, left 0.7s ease, box-shadow 1s ease;
+
+    overflow: hidden;
+
+
+
+    /* TIRAR LAG DO MENU SLIDE -> ATIVAR ACELERAÇÃO DE HARDWARE   */
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+
+
+
+
+
+}
+nav#menu ul:hover{
+    overflow: auto;
+    overflow-x: hidden;
+
+    left: -10px;
+    background-color: rgba(48, 69, 89, 0.82);
+    height: 100%;
+
+    -webkit-box-shadow: 16px 0px 30px 0px rgba(50, 50, 50, 0.36);
+    -moz-box-shadow:    16px 0px 30px 0px rgba(50, 50, 50, 0.36);
+    box-shadow:         16px 0px 30px 0px rgba(50, 50, 50, 0.36);
+}
+
+div#puxa_menu{
+    width: 49px;
+    height: 49px;
+    
+    background-image: url("../imagens/menu1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    float: right;
+    position: relative;
+
+    margin-top: 10px;
+
+    /* border: solid white 1px; */
+    left: 2px;
+
+}
+div#puxa_menu:hover{
+    background-color: transparent;
+}
+
+
+
+
+nav#menu li{
+    display: inline-block;
+
+    background-color: transparent;
+
+    padding: 10px;
+    margin: 0px;
+    -webkit-transition: background-color 1s
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+
+
+
+    border-left: #1a3a6e 10px solid;
+    color: whitesmoke;
+    width: 288px;
+    max-width: 100%;
+
+    min-height: 30px;
+    max-height: 30px;
+
+    transition: width 0.5s, font-size 1s, background-color 1s, padding 0.1s, color 0.5s, border-radius 1s, border 1s, font-weight 0.0s, bacground-color 0.2s;
+
+}
+nav#menu li:hover{
+    background-color: #0099CC;
+
+    font-size: 17pt;
+    font-weight: bold;
+    padding: 9px;
+    color: whitesmoke;
+    border-left: #65c3ff 10px solid;
+
+
+
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: #e7e7e7;
+
+}
+
+nav#menu img{
+    border-top: 10px;
+
+}
+
+table#tbmenu{
+    overflow-x: scroll;
+}
+
+
+
+
+
+
+
+
+/* EQUIPE ICONS */
+
+div#projeto,div#equipe,div#professores,div#obrigado{
+    width: 70px;
+    height: 70px;
+
+    border: none;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    float: left;
+
+
+
+}
+
+div#projeto{
+    background-image: url("../imagens/Coins.png");
+    margin-top: 50px;
+}
+
+div#equipe{
+    background-image: url("../imagens/Code.png");
+    margin-top: 90px;
+}
+
+div#professores{
+    background-image: url("../imagens/Classroom.png");
+    margin-top: 90px;
+}
+
+div#obrigado{
+    background-image: url("../imagens/Applause.png");
+    margin-top: 105px;
+}
+
+.tbla{
+    display: table;
+    width: 100%;
+
+
+}

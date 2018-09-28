@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+
+
+.round{
+    width: 100%;
+
+}
+
+.notepad{
+    float: left;
+    width: 50%;
+}
+
+.notas_topo{
+   background-color: #464134;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.titulo{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    border: none;
+    font-size: 25px;
+    padding-left: 20px;
+
+}
+
+
+
+.notas_conteudo{
+    width: 100%;
+    background-image: url("../imagens/noteblock.jpg");
+    background-size: 150%;
+}
+
+.textarea_conteudo{
+    background-color: transparent;
+    height: 300px;
+    width: 100%;
+    font-family: Arial;
+    font-size: 18pt;
+    color: #212162;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+
+.lembredia{
+    border: none;
+    color: #000000;
+    font-size: 15pt;
+    background-color: transparent;
+    font-weight: bold;
+
+
+    font-family: "Helvetica";
+}
+
+
+
+.ordenar{
+    width: 30%;
+    background-color: #e8e8e8;
+    float: right;
+    padding: 30px;
+    background-image: url("../imagens/postitblue.png");
+    background-size: cover;
+
+
+    /*border: solid 5px #0066cc;*/
+}
+
+
+.bnt_deletar{
+    background-image: url("../imagens/Delete.png");
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    float: right;
+
+    border: none;
+    background-color: transparent;
+}

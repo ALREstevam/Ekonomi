@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F2646D4-ADC9-4337-BAEE-9764F40F3FA2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>frm_login</RootNamespace>
+    <AssemblyName>frm_login</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Usuário_TCC\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://ekonomi.hostei.com</SupportUrl>
+    <ProductName>Ekonomi 2015</ProductName>
+    <PublisherName>Equipe Ekonomi</PublisherName>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ekonomicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7925FA02AD7BF7960F5F23CD91557FED4D145D76</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>tcc_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Awesomium.Core, Version=1.7.5.1, Culture=neutral, PublicKeyToken=e1a0d7c8071a5214" />
+    <Reference Include="Awesomium.Windows.Forms, Version=1.7.5.1, Culture=neutral, PublicKeyToken=9bd24830fbe304a0, processorArchitecture=x86" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\DLL\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="calculadora.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>calculadora.resx</DependentUpon>
+    </Compile>
+    <Compile Include="construtor.cs" />
+    <Compile Include="dal.cs" />
+    <Compile Include="Calculadora_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="Form1.Designer.cs" />
+    <Compile Include="dalinvestimento.cs" />
+    <Compile Include="dalMeta.cs" />
+    <Compile Include="dalreceita.cs" />
+    <Compile Include="dal_parcela.cs" />
+    <Compile Include="Form11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Form1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFunciona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFunciona.designer.cs">
+      <DependentUpon>FrmFunciona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmmeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmeta.Designer.cs">
+      <DependentUpon>frmmeta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQue.Designer.cs">
+      <DependentUpon>FrmQue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSplash.Designer.cs">
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_despesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_despesa.Designer.cs">
+      <DependentUpon>frm_despesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_investimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_investimento.Designer.cs">
+      <DependentUpon>frm_investimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_menu.Designer.cs">
+      <DependentUpon>frm_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_receita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_receita.Designer.cs">
+      <DependentUpon>frm_receita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="notas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notas.Designer.cs">
+      <DependentUpon>notas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="calculadora.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>calculadora.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculadora_1.resx">
+      <DependentUpon>Calculadora_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Form11.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFunciona.resx">
+      <DependentUpon>FrmFunciona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmeta.resx">
+      <DependentUpon>frmmeta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQue.resx">
+      <DependentUpon>FrmQue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSplash.resx">
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_despesa.resx">
+      <DependentUpon>frm_despesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_investimento.resx">
+      <DependentUpon>frm_investimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_menu.resx">
+      <DependentUpon>frm_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_receita.resx">
+      <DependentUpon>frm_receita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notas.resx">
+      <DependentUpon>notas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="tcc_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roboto-Light.ttf" />
+    <None Include="Resources\Roboto-Regular.ttf" />
+    <None Include="Resources\users1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soologoazul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etaaaaaas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo_branco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_lateral.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power_shut_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize Window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MB__reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testebut141.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testebut142.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testebut151.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testebut111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TESTEBUTPORRAAAAAAA1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testebut61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ekonomicon.ico" />
+    <Content Include="Resources\iconeekonomi.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

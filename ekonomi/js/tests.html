@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    data = new Date();
+    dia = data.getDate();
+    mes = data.getMonth();
+    ano = data.getFullYear();
+
+    if(mes <= 9){
+        mes = '0'+mes;
+    }
+    if(dia <= 9){
+        dia = '0'+dia;
+    }
+
+    var data_hoje_sqlformat = (ano + '-' + mes + '-' + dia);
+
+
+    //////////////////////////////////////////////////////////////
+
+    data = new Date();
+    diatxt = data.getDate();
+    mestxt = data.getMonth();
+    anotxt = data.getFullYear();
+
+    mesestxt = new Array(12);
+
+    mesestxt[0] = "Janeiro";
+    mesestxt[1] = "Fevereiro";
+    mesestxt[2] = "Março";
+    mesestxt[3] = "Abril";
+    mesestxt[4] = "Maio";
+    mesestxt[5] = "Junho";
+    mesestxt[6] = "Julho";
+    mesestxt[7] = "Agosto";
+    mesestxt[8] = "Setembro";
+    mesestxt[9] = "Outubro";
+    mesestxt[10] = "Novembro";
+    mesestxt[11] = "Dezembro";
+
+    var data_hoje_txtformat = (diatxt + " de " + mesestxt[mestxt] + " de " + anotxt);
+
+
+
+</script>
+
+<div>
+
+
+    <table border="1">
+        <tr>
+            <td> '.$ID_Contato.'</td>
+            <td> '.$Nome.'</td>
+        </tr>
+    
+    <tr><td>'.$Email.'</td></tr>
+
+
+<tr>   <td> '.$Sexo.'</td>
+    <td>'.$Data_TXT.'</td></tr>
+
+
+
+    <tr><td>'.$Texto.'</td></tr>
+    <tr><td>'.$Postar.'</td></tr>
+    </table>
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,468 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url('../../estilos/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url('../../estilos/fonts/Roboto-Thin.ttf');
+}
+
+
+
+
+body{
+    font-family: RobotoRegular, Arial, sans-serif;
+    background-image: url("../_imagens/background.png");
+    margin: 0px;
+
+}
+
+
+h1{
+    color: #0a0a0a;
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size:43pt;
+}
+
+h2{
+    color: #0a0a0a;
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size:30pt;
+    text-align: left;
+}
+h3{
+    color: #0a0a0a;
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size:18pt;
+    text-align: left;
+
+}
+
+
+h4{
+
+    color: #0a0a0a;
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size:27pt;
+    text-align: left;
+    text-decoration: underline ;
+    font-style: oblique;
+}
+
+
+
+div#topo{
+
+    margin-top: -5px;
+    background-color: #13171c;
+
+    width: 100%;
+    height: 90px;
+
+
+
+
+
+}
+
+ul#menu_ul{
+    background-color: #13171c;
+}
+
+
+
+.nome_adm{
+    font-family: RobotoThin, Arial, sans-serif;
+
+    background-image: url("../_imagens/porco_cofrinho.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-color: #13171c;
+    width: auto;
+    float: left;
+    height: 50px;
+    color: #ffffff;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 31pt;
+
+
+}
+
+.email_adm{
+    font-family: RobotoThin, Arial, sans-serif;
+    background-color: #13171c;
+    width: auto;
+    float: right;
+    height: 70px;
+    text-align: right;
+    color: #ffffff;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+
+    font-size: 27pt;
+
+
+
+    background-image: url("../_imagens/admin.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+div#menu{
+    width: 100%;
+    height: 90px;
+    background-color: #13171c;
+    text-align: center;
+
+
+}
+
+div#conteudo{
+    background-color: rgba(236, 246, 239, 0.93);
+    width: 80%;
+
+
+    min-height: 70%;
+    height: auto;
+    padding: 25px;
+
+    border-left: solid 5px #13171C;
+    border-right: solid 5px #13171C;
+    border-top: solid 5px #13171C;
+}
+
+
+
+
+.sair{
+    width: 50px;
+    height: 50px;
+
+    background-image: url("../_imagens/power_shut_down.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+    float: left;
+    cursor: pointer;
+
+    border-radius: 0px;
+
+    margin-top: 26px;
+
+
+
+    border-style: solid;
+    border-width: medium;
+    border-color: #DF0226;
+    transition: box-shadow 0.2s, border-color 0.5s;
+    padding: 0px;
+
+
+    
+
+}
+
+.sair:hover{
+
+    border-color: #99030f;
+
+}
+
+
+
+
+
+
+
+
+.texto{
+    width: 60%;
+    font-size: 15pt;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: RobotoRegular, Arial, sans-serif;
+    border: 5px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: solid;
+    border-color: #2f2f2f;
+    outline: none;
+
+
+}
+.texto:hover{
+    border-color: #006699;
+
+}
+.texto:active{
+    border-color: #006699;
+}
+
+
+
+
+.botao{
+
+    background-color: #0096de;
+
+    color:#ffffff;
+    border:hidden;
+
+    width:100px;
+    height:40px;
+
+    margin: 10px;
+
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size:20px;
+    border-radius:100px;
+
+    outline:none;
+
+
+
+    transition: box-shadow 0.5s;
+
+
+}
+
+
+.botao:hover{
+    background:#0099CC;
+    cursor:pointer;
+    box-shadow: 0px 1px 10px rgba(0, 153, 204, 0.50);
+}
+
+
+div#pesquisacampos{
+    width: 60%;
+
+}
+
+.user_foto_adm{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 100px;
+    background-color: rgb(0, 168, 253);
+
+}
+
+
+.tabela_pesquisa{
+    font-family:RobotoRegular, Arial, sans-serif;
+    font-size: 12pt;
+
+    border-style: solid;
+    border-color: rgba(236, 246, 239, 0.93);
+
+    margin-bottom: 10px;
+
+
+    width: 100%;
+}
+td{
+
+    border-color: rgba(236, 246, 239, 0.93);
+
+}
+tr{border-color: rgba(236, 246, 239, 0.93);}
+
+
+.botao_alterar{
+    background-image: url("../_imagens/Configure_alt_3.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    cursor: pointer;
+
+
+
+}
+
+p#pesq_campos{
+    font-family: RobotoRegular, Arial, sans-serif;
+    font-size: 20pt;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav#menu ul{
+
+
+    float: left;
+    font-family:RobotoThin, Arial, sans-serif;
+    font-size: 15pt;
+    list-style: none;
+    text-transform: uppercase;
+    /*top: 230px;
+    left: -6px;*/
+    color: #ffffff;
+
+    z-index:999;
+    overflow:hidden;
+    padding:6px;
+
+}
+
+nav#menu li{
+
+    width: 220px;
+    display: inline-block;
+    background-color: #304559;
+    padding: 10px;
+    margin: 0px;
+    -webkit-transition: background-color 1s
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+
+    color: whitesmoke;
+
+    transition: background-color 0.5s;
+
+}
+nav#menu li:hover{
+   /* background-color: rgb(42, 45, 143); */
+    background-color: #0099CC;
+
+
+    color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.75,);
+
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: #e7e7e7;
+
+}
+
+nav#menu img{
+    border-top: 10px;
+
+}
+
+
+
+.adicionar_adm{
+    background-color: transparent;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+
+
+    border-style: none;
+    background-image: url("../_imagens/add1.png");
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+
+    margin-bottom: -80px;
+    margin-right: -10px;
+
+    float: right;
+
+}
+
+
+
+
+
+
+div#icon_info{
+    background-image: url("../_imagens/Info.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    width: 40px;
+    height: 40px;
+
+    transition: width 0.5s, height 0.5s, border-color 1.5s, border-width 1.5s, border-style 1.5s ;
+    cursor: pointer;
+
+    border: transparent;
+
+    /* TIRAR LAG DO MENU SLIDE -> ATIVAR ACELERAÇÃO DE HARDWARE   */
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+
+
+
+
+}
+div#icon_info:hover{
+    width: 600px;
+    height: 400px;
+
+
+
+
+
+}
+
+div#informacao_nivel{
+    width: 200px;
+    float: left;
+    margin-left: 50px;
+    visibility: hidden;
+    transition: visibility 0.2s;
+}
+div#informacao_nivel:hover{
+    visibility: visible;
+    float: left;
+    margin-left: 50px;
+}
+div#informacao_nivel img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+.acessoNegado{
+    background-image: url("../_imagens/green-safe-lock-icon-png-large.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 200px;
+    height: 200px;
+
+
+}

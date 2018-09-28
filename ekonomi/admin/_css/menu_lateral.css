@@ -1,0 +1,189 @@
+/* ////////MENU LATERAL//////// */
+
+div#menulateral{
+    background-color: rgba(19, 23, 28, 0.50);
+    height: 96%;
+    border: 50px;
+    /* margin-left: 38%; */
+    min-width: 100px;
+    max-width: 100px;
+    padding: 20px;
+
+
+
+    margin-left: -130px;
+    margin-top: -10px;
+
+    border-right: solid #ffffff 5px;
+
+    position: fixed;
+
+    float: left;
+
+    transition: box-shadow 1s, margin-left 0.5s;
+
+    /* TIRAR LAG DO MENU SLIDE -> ATIVAR ACELERAÇÃO DE HARDWARE   */
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow: hidden;
+
+
+}
+
+div#menulateral:hover{
+    margin-left: -10px;
+    overflow: auto;
+    overflow-x: hidden;
+
+
+}
+
+.botoes_nav{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.return   {
+    background-color:transparent;
+    border-radius: 100%;
+
+    border-style: none;
+    border-width: 2px;
+
+    background-image: url("../_imagens/return.png");
+    background-size: cover;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-bottom: 10px;
+
+}
+input#sair_1{
+    background-color:transparent;
+    border-radius: 100%;
+
+    border-style: none;
+    border-width: 2px;
+
+    background-image: url("../_imagens/power_shut_down.png");
+    background-size: cover;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding-bottom: 10px;
+}
+
+a#download{
+    background-color: transparent;
+    border-radius: 100%;
+
+    border-style: none;
+    border-width: 2px;
+
+    background-image: url("../_imagens/code.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+    cursor: pointer;
+    width: 80px;
+    height: 70px;
+    float: left;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+input#download_button:hover{
+   /* background-color: #7226bd; */
+}
+
+
+input#reload_button{
+    background-color: #0dcd0f;
+    border-radius: 100%;
+
+    border-style: none;
+    border-width: 2px;
+
+    background-image: url("../_imagens/refresh.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+
+
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+input#reload_button:hover{
+   /* background-color: #0fd412; */
+
+}
+
+
+
+
+
+
+.puxa{
+    width: 30px;
+    height: 30px;
+
+
+
+    background-image: url("../_imagens/threelines1.png");
+    background-size: cover;
+    
+    border: solid #f5f5f5 15px;
+
+    background-color: #F5F5F5;
+
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+    margin-top: 160px;
+    margin-left: 120px;
+    position: absolute;
+
+}
+
+
+
+.shield1, .shield2, .shield3, .shield4{
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    float: right;
+
+
+}
+
+.shield1{
+    background-image: url("../_imagens/shield-1.png");
+}
+
+.shield2{
+    background-image: url("../_imagens/shield-2.png");
+}
+
+.shield3{
+    background-image: url("../_imagens/shield-3.png");
+}
+
+.shield4{
+    background-image: url("../_imagens/shield-4.png");
+}
+

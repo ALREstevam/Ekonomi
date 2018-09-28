@@ -1,0 +1,234 @@
+[1106/124811:INFO:(0)] WebCore is now online.
+[1106/124811:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/125026:INFO:(0)] WebCore is now online.
+[1106/125026:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/141705:INFO:(0)] WebCore is now online.
+[1106/141705:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/141708:WARNING:Awesomium.NET(0)] System.TimeoutException: The operation has timed out. The child process or the I/O thread, are busy. Please try to create the object again.
+   em Awesomium.Windows.Forms.WebControl.CreateGlobalJavascriptObject(String name)
+   em Awesomium.Core.JavascriptHelper.Register()
+[1106/141832:INFO:(0)] WebCore is now online.
+[1106/141832:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/141842:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1106/142149:INFO:(0)] WebCore is now online.
+[1106/142149:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/142358:INFO:(0)] WebCore is now online.
+[1106/142358:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/142530:INFO:(0)] WebCore is now online.
+[1106/142530:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/142715:INFO:(0)] WebCore is now online.
+[1106/142715:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/143432:INFO:(0)] WebCore is now online.
+[1106/143432:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/143735:INFO:(0)] WebCore is now online.
+[1106/143735:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/143759:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1106/143911:INFO:(0)] WebCore is now online.
+[1106/143911:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/144006:INFO:(0)] WebCore is now online.
+[1106/144006:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/144249:INFO:(0)] WebCore is now online.
+[1106/144249:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/144436:INFO:(0)] WebCore is now online.
+[1106/144436:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/144546:INFO:(0)] WebCore is now online.
+[1106/144546:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/144702:INFO:(0)] WebCore is now online.
+[1106/144702:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/144826:INFO:(0)] WebCore is now online.
+[1106/144826:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/190909:INFO:(0)] WebCore is now online.
+[1106/190909:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/190934:WARNING:Awesomium.NET(0)] System.ComponentModel.InvalidAsynchronousStateException: Erro ao invocar o método. O thread de destino não existe mais.
+   em System.Windows.Forms.WindowsFormsSynchronizationContext.Send(SendOrPostCallback d, Object state)
+   em Awesomium.Core.WebCore.wvjjlbeQdqUVO5E6FXD(Object , Object , Object )
+   em Awesomium.Core.WebCore.ioXQMTP1sf()
+[1106/190934:WARNING:Awesomium.NET(0)] Awesomium.Core.AweInvalidOperationException: The calling thread cannot access this object because a different thread owns it.
+
+
+[1106/191431:INFO:(0)] WebCore is now online.
+[1106/191431:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/191615:INFO:(0)] WebCore is now online.
+[1106/191615:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/192634:INFO:(0)] WebCore is now online.
+[1106/192634:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/193214:INFO:(0)] WebCore is now online.
+[1106/193214:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/193302:INFO:(0)] WebCore is now online.
+[1106/193302:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/193641:INFO:(0)] WebCore is now online.
+[1106/193641:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/193926:INFO:(0)] WebCore is now online.
+[1106/193926:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/194124:INFO:(0)] WebCore is now online.
+[1106/194124:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/194443:INFO:(0)] WebCore is now online.
+[1106/194443:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/194608:INFO:(0)] WebCore is now online.
+[1106/194608:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/195110:INFO:(0)] WebCore is now online.
+[1106/195110:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/200101:INFO:(0)] WebCore is now online.
+[1106/200101:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/202342:INFO:(0)] WebCore is now online.
+[1106/202342:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/204839:INFO:(0)] WebCore is now online.
+[1106/204839:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/205207:INFO:(0)] WebCore is now online.
+[1106/205207:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/205507:INFO:(0)] WebCore is now online.
+[1106/205507:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/205956:INFO:(0)] WebCore is now online.
+[1106/205956:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/210407:INFO:(0)] WebCore is now online.
+[1106/210407:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/211413:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1106/211742:INFO:(0)] WebCore is now online.
+[1106/211742:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/211940:INFO:(0)] WebCore is now online.
+[1106/211940:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/212440:INFO:(0)] WebCore is now online.
+[1106/212440:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/215531:INFO:(0)] WebCore is now online.
+[1106/215531:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/221325:INFO:(0)] WebCore is now online.
+[1106/221325:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/221442:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1106/224733:INFO:(0)] WebCore is now online.
+[1106/224733:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/224753:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1106/224823:INFO:(0)] WebCore is now online.
+[1106/224823:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/224954:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1106/225144:INFO:(0)] WebCore is now online.
+[1106/225144:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/225910:INFO:(0)] WebCore is now online.
+[1106/225910:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/230039:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1106/230423:INFO:(0)] WebCore is now online.
+[1106/230423:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/230453:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1106/230455:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1106/230548:INFO:(0)] WebCore is now online.
+[1106/230548:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/231135:INFO:(0)] WebCore is now online.
+[1106/231135:INFO:(0)] Running Awesomium 1.7.5.1
+[1106/233524:INFO:(0)] WebCore is now online.
+[1106/233524:INFO:(0)] Running Awesomium 1.7.5.1
+[1108/215613:INFO:(0)] WebCore is now online.
+[1108/215613:INFO:(0)] Running Awesomium 1.7.5.1
+[1108/220029:INFO:(0)] WebCore is now online.
+[1108/220029:INFO:(0)] Running Awesomium 1.7.5.1
+[1108/220608:INFO:(0)] WebCore is now online.
+[1108/220608:INFO:(0)] Running Awesomium 1.7.5.1
+[1108/220822:WARNING:Awesomium.NET(0)] System.TimeoutException: The operation has timed out. The child process or the I/O thread, are busy. Please try to create the object again.
+   em Awesomium.Windows.Forms.WebControl.CreateGlobalJavascriptObject(String name)
+   em Awesomium.Core.JavascriptHelper.Register()
+[1108/221952:INFO:(0)] WebCore is now online.
+[1108/221952:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/081359:INFO:(0)] WebCore is now online.
+[1109/081359:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/081403:WARNING:Awesomium.NET(0)] System.TimeoutException: The operation has timed out. The child process or the I/O thread, are busy. Please try to create the object again.
+   em Awesomium.Windows.Forms.WebControl.CreateGlobalJavascriptObject(String name)
+   em Awesomium.Core.JavascriptHelper.Register()
+[1109/105544:INFO:(0)] WebCore is now online.
+[1109/105544:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/105549:WARNING:Awesomium.NET(0)] System.TimeoutException: The operation has timed out. The child process or the I/O thread, are busy. Please try to create the object again.
+   em Awesomium.Windows.Forms.WebControl.CreateGlobalJavascriptObject(String name)
+   em Awesomium.Core.JavascriptHelper.Register()
+[1109/105914:INFO:(0)] WebCore is now online.
+[1109/105914:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/114806:INFO:(0)] WebCore is now online.
+[1109/114806:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/115039:INFO:(0)] WebCore is now online.
+[1109/115039:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/115204:INFO:(0)] WebCore is now online.
+[1109/115204:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/133408:INFO:(0)] WebCore is now online.
+[1109/133408:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/133516:INFO:(0)] WebCore is now online.
+[1109/133516:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/134224:INFO:(0)] WebCore is now online.
+[1109/134224:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/134452:INFO:(0)] WebCore is now online.
+[1109/134452:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/134714:INFO:(0)] WebCore is now online.
+[1109/134714:INFO:(0)] Running Awesomium 1.7.5.1
+[1109/134837:INFO:(0)] WebCore is now online.
+[1109/134837:INFO:(0)] Running Awesomium 1.7.5.1
+[1110/114950:INFO:(0)] WebCore is now online.
+[1110/114950:INFO:(0)] Running Awesomium 1.7.5.1
+[1110/115051:INFO:(0)] WebCore is now online.
+[1110/115051:INFO:(0)] Running Awesomium 1.7.5.1
+[1110/135506:INFO:(0)] WebCore is now online.
+[1110/135506:INFO:(0)] Running Awesomium 1.7.5.1
+[1110/135510:WARNING:Awesomium.NET(0)] System.TimeoutException: The operation has timed out. The child process or the I/O thread, are busy. Please try to create the object again.
+   em Awesomium.Windows.Forms.WebControl.CreateGlobalJavascriptObject(String name)
+   em Awesomium.Core.JavascriptHelper.Register()
+[1110/142543:INFO:(0)] WebCore is now online.
+[1110/142543:INFO:(0)] Running Awesomium 1.7.5.1
+[1110/142547:WARNING:Awesomium.NET(0)] System.TimeoutException: The operation has timed out. The child process or the I/O thread, are busy. Please try to create the object again.
+   em Awesomium.Windows.Forms.WebControl.CreateGlobalJavascriptObject(String name)
+   em Awesomium.Core.JavascriptHelper.Register()
+[1110/143026:INFO:(0)] WebCore is now online.
+[1110/143026:INFO:(0)] Running Awesomium 1.7.5.1
+[1110/143227:INFO:(0)] WebCore is now online.
+[1110/143227:INFO:(0)] Running Awesomium 1.7.5.1
+[1110/143355:INFO:(0)] WebCore is now online.
+[1110/143355:INFO:(0)] Running Awesomium 1.7.5.1
+[1110/143501:INFO:(0)] WebCore is now online.
+[1110/143501:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/093258:INFO:(0)] WebCore is now online.
+[1111/093258:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/093302:WARNING:Awesomium.NET(0)] System.TimeoutException: The operation has timed out. The child process or the I/O thread, are busy. Please try to create the object again.
+   em Awesomium.Windows.Forms.WebControl.CreateGlobalJavascriptObject(String name)
+   em Awesomium.Core.JavascriptHelper.Register()
+[1111/093414:INFO:(0)] WebCore is now online.
+[1111/093414:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/094046:INFO:(0)] WebCore is now online.
+[1111/094046:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/094150:INFO:(0)] WebCore is now online.
+[1111/094150:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/094247:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1111/094445:INFO:(0)] WebCore is now online.
+[1111/094445:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/094511:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1111/095439:INFO:(0)] WebCore is now online.
+[1111/095439:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/102637:INFO:(0)] WebCore is now online.
+[1111/102637:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/105057:INFO:(0)] WebCore is now online.
+[1111/105057:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/105245:ERROR:ipc_channel_win.cc(261)] pipe error: 109
+[1111/113250:INFO:(0)] WebCore is now online.
+[1111/113250:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/113254:WARNING:Awesomium.NET(0)] System.TimeoutException: The operation has timed out. The child process or the I/O thread, are busy. Please try to create the object again.
+   em Awesomium.Windows.Forms.WebControl.CreateGlobalJavascriptObject(String name)
+   em Awesomium.Core.JavascriptHelper.Register()
+[1111/113737:INFO:(0)] WebCore is now online.
+[1111/113737:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/114145:INFO:(0)] WebCore is now online.
+[1111/114145:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/114622:INFO:(0)] WebCore is now online.
+[1111/114622:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/115042:INFO:(0)] WebCore is now online.
+[1111/115042:INFO:(0)] Running Awesomium 1.7.5.1
+[1111/115402:INFO:(0)] WebCore is now online.
+[1111/115402:INFO:(0)] Running Awesomium 1.7.5.1
+[1112/092745:INFO:(0)] WebCore is now online.
+[1112/092745:INFO:(0)] Running Awesomium 1.7.5.1
+[1112/092747:WARNING:Awesomium.NET(0)] System.TimeoutException: The operation has timed out. The child process or the I/O thread, are busy. Please try to create the object again.
+   em Awesomium.Windows.Forms.WebControl.CreateGlobalJavascriptObject(String name)
+   em Awesomium.Core.JavascriptHelper.Register()
+[1112/093032:INFO:(0)] WebCore is now online.
+[1112/093032:INFO:(0)] Running Awesomium 1.7.5.1
+[1112/094515:INFO:(0)] WebCore is now online.
+[1112/094515:INFO:(0)] Running Awesomium 1.7.5.1
+[1112/094811:INFO:(0)] WebCore is now online.
+[1112/094811:INFO:(0)] Running Awesomium 1.7.5.1
+[1115/094606:INFO:(0)] WebCore is now online.
+[1115/094606:INFO:(0)] Running Awesomium 1.7.5.1
+[1115/095715:INFO:(0)] WebCore is now online.
+[1115/095715:INFO:(0)] Running Awesomium 1.7.5.1
+[1115/111146:INFO:(0)] WebCore is now online.
+[1115/111146:INFO:(0)] Running Awesomium 1.7.5.1

@@ -1,0 +1,148 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url('../../estilos/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url('../../estilos/fonts/Roboto-Thin.ttf');
+}
+
+
+
+
+body{
+    font-family:RobotoRegular, Arial, sans-serif;
+    background-color: rgba(236, 246, 239, 0.93);
+}
+h1{
+    color: #0a0a0a;
+    font-family:RobotoThin, Arial, sans-serif;
+    font-size:35pt;
+}
+
+h2{
+    color: #0a0a0a;
+    font-family:RobotoThin, Arial, sans-serif;
+    font-size:21pt;
+    text-align: left;
+}
+.user_img{
+    background-color: rgba(0, 203, 204, 0.35);
+    border-radius: 100px;
+    border-style: solid;
+    border-color: rgba(213, 213, 213, 0.71);
+
+
+    border-width: 8px;
+    padding: 5px;
+
+    width: 80px;
+    height: 80px;
+
+    transition:  border 0.2s, background 0.5s;
+    margin-top: 20px;
+}
+
+
+.user_img:hover{
+
+    border-color: rgba(213, 213, 213, 0.71);
+    background-color: #0099CC;
+
+}
+.div_marcafoto{
+    background-image: url("../_imagens/checked.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    float: left;
+    z-index:999;
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: -100px;
+    margin-left: 190px;
+
+
+}
+.texto{
+    width: 80%;
+    font-size: 12pt;
+    background-color: #ffffff;
+    color: #000000;
+    font-family:RobotoRegular, Arial, sans-serif;
+    border: 2px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 0px rgba(16, 16, 16, 0.66);
+    border: solid;
+    border-color: #2f2f2f;
+    outline: none;
+
+
+
+
+}
+.texto:hover{
+    border-color: #006699;
+
+}
+.texto:active{
+    border-color: #006699;
+}
+
+
+table#tb01{
+    width: 100%;
+    border: none;
+
+}
+
+
+fieldset#adm{
+    min-height: 200px;
+    width: 85%;
+}
+
+
+
+fieldset#cadastro_fieldlist, fieldset#endereco{
+    min-height: 520px;
+    width: 85%;
+}
+fieldset#fieldset_imagem{
+    height: 600px;
+}
+
+
+
+table#tb02{
+    width: 100%;
+    border: none;
+
+}
+fieldset#fieldset_imagem{
+    width: 500px;
+    height: 600px;
+
+    /*
+    position: absolute;
+    */
+
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+
+}
+
+
+
+
+fieldset#sexo, fieldset#estado_civil{
+    min-height: 100px;
+    width: 85%;
+
+}

@@ -1,0 +1,72 @@
+
+<meta charset=utf-8" />
+
+
+<script src="include/mensagem.js"></script>
+<script src="js/data_hoje.js"></script>
+
+<link rel="stylesheet" type="text/css" href="estilos/stylesheet_formatacao_de_input.css">
+<section id="conteudo" class="conteudo">
+<h2>Mande-nos sua mensagem </h2>
+    <fieldset id="contato_fieldset">
+        <legend>Formulário de Contato:</legend>
+    <div id="contato">
+
+
+
+
+<form name="formulario_contato" action="include_enviar/Enviar_comentario.php" method="post" onsubmit="return validacao();">
+
+
+    <label for="cNome">Nome completo:</label>
+   <input type="text" id="cNome" name="tNome" placeholder="Seu nome aqui" maxlength="50" class="texto" onblur="nome();">
+    <div id="errnome"></div>
+
+
+
+    <label for="cEmail">E-mail:</label>
+    <input type="email" id="cEmail" name="tEmail" placeholder="exemplo@servidor.com" maxlength="35" class="texto" onblur="email();">
+    <div id="erremail"></div>
+
+    <p>
+    Sexo:<br>
+
+        <div id="div_radio"><p>
+    <input type="radio" name="tSexo" value="masculino" class="radio" name="tSexo" checked >Masculino<br>
+    <input type="radio" name="tSexo" value="feminino" class="radio" name="tSexo">Feminino<br>
+
+    </p>
+           </div>
+
+
+
+    <label for="cMensgem">Envie suas dúvidas:</label>
+    <textarea value="" name="tComentario" id=cMensgem rows="10" cols="50" maxlength="300" placeholder="Escreva seu texto aqui" class="texto" style="width: 80%; margin-left: 10px;" onblur="mensagem();">  </textarea>
+    <div id="errmensagem"></div>
+
+
+
+    <p>
+    <input type="submit" value="Enviar " class="botao" style="margin-left: 5%" onclick="validacao();" >
+    <input type="reset" value="Limpar" class="botao" onclick="limpar();">
+    </p>
+
+
+    <input type="text" id="time_sqlf" name="time_sqlf" hidden="hidden">
+    <input type="text" id="time_txtf" name="time_txtf" hidden="hidden">
+
+    <script>
+        document.getElementById("time_sqlf").value = data_hoje_sqlformat;
+        document.getElementById("time_txtf").value = data_hoje_txtformat;
+    </script>
+
+
+</form>
+
+
+
+  
+ 
+</div>
+        </fieldset>
+</section>

@@ -1,0 +1,174 @@
+.fundo_despesa{
+    width: 100%;
+    background-color: #F9FDFD;
+
+}
+
+.div_valor_despesa{
+    float:left;
+    display: table;
+    background-color: transparent;
+    width: auto;
+
+
+    height: 60px;
+
+}
+
+.texto_valor_despesa{
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.div_tipos_despesa{
+    float:left;
+    display: table;
+
+}
+
+
+
+
+.texto_tipos_despesa{
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+
+
+.barra_despesa{
+    background-color: #FF2C0D;
+    height:80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+div#grafico_barra_despesa {
+    float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fundo_receita{
+    width: 100%;
+    background-color: #26e02c;
+
+
+}
+
+.div_valor_receita{
+    float:right;
+    display: table;
+    background-color: transparent;
+    width: auto;
+
+
+    height: 60px;
+
+}
+
+.texto_valor_receita{
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+
+}
+
+.div_tipos_receita{
+    float:right;
+    display: table;
+
+
+}
+
+
+
+
+.texto_tipos_receita{
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+
+
+.barra_receita{
+    background-color: #F9FDFD;
+    height:80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+
+}
+
+.barra_receita_total{
+
+
+}
+
+
+
+div#grafico_barra_receita{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.barra_lucro_mai{
+    height: 30px;
+    background-color: #0dcd0f;
+    font-weight: bold;
+    font-size: 15pt;
+
+
+}
+.spn_sald{
+    height: 30px;
+    float: left;
+    margin-top: -30px;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+
+
+
+
+
+

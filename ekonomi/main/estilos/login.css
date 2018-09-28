@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url('../../estilos/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url('../../estilos/fonts/Roboto-Thin.ttf');
+}
+
+
+
+div#login_logado{
+
+    width:400px;
+    height:89px;
+
+    top: 0px;
+    right: 0px;
+    background-color:#13171C;
+
+    padding-top: 10px;
+
+    position: absolute;
+    z-index:999;
+    overflow:hidden;
+    transition: height 1s, width 0.5s, border-bottom 0.5s, border-left 0.5s, border-right 0.5s;
+
+    text-align: center;
+
+    border-bottom: solid #ee493d;
+    border-left: solid #ee493d;
+    border-right: solid #ee493d;
+
+}
+
+div#login_logado:hover{
+    width:450px;
+    height:340px;
+
+    border-bottom: solid #0096e1;
+    border-left: solid #0096e1;
+    border-right: solid #0096e1;
+
+}
+
+

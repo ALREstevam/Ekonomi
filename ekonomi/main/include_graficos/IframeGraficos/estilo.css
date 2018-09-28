@@ -1,0 +1,319 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url('../../../estilos/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url('../../../estilos/fonts/Roboto-Thin.ttf');
+}
+
+h1, h2{
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size: 30pt;
+    color: #ffffff;
+}
+
+body{
+    font-family: RobotoRegular, Arial, sans-serif;
+}
+
+.barra_saldo{
+    font-size: 30pt;
+}
+.form_pesquisa{
+    font-size: 15pt;
+    font-family: RobotoRegular, Arial, sans-serif;
+    padding: 3px;
+    margin: 5px;
+    min-width: 100px;
+}
+
+.blackh2{
+    color: black;
+}
+
+
+
+
+.fundo_despesa{
+    width: 100%;
+    background-color: #F9FDFD;
+
+}
+
+.div_valor_despesa{
+    float:left;
+    display: table;
+    background-color: transparent;
+    width: auto;
+
+
+    height: 60px;
+
+}
+
+.texto_valor_despesa{
+    font-family: RobotoRegular, Arial, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.div_tipos_despesa{
+    float:left;
+    display: table;
+    padding-top: 14px;
+
+}
+
+
+
+
+.texto_tipos_despesa{
+    font-family: RobotoRegular, Arial, sans-serif;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+
+
+.barra_despesa{
+    background-color: #FF2C0D;
+    height:80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.barra_investimento{
+    background-color: #e05500;
+    height:80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+
+div#grafico_barra_despesa {
+    float: right;
+
+}
+
+
+.botao_pesquisa_graficos{
+    width: 500px;
+    min-width: 300px;
+    border-style: none;
+
+
+
+    font-family: RobotoThin, Arial, sans-serif;
+    font-size: 30pt;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px ;
+    padding-left: 60px;
+
+
+
+    background-image: url("../../imagens/search.png");
+    background-size: 70px;
+    background-position: left;
+    background-repeat: no-repeat;
+
+
+
+
+    background-color: #009ced;
+    color: #ffffff;
+
+
+    height: 80px;
+
+
+    border-left: #009ced solid;
+
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+
+    transition: background-color 0.5s;
+    cursor: pointer;
+
+
+
+}
+.botao_pesquisa_graficos:hover{
+    background-color: #006699;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.fundo_receita{
+    width: 100%;
+    background-color: #26e02c;
+
+}
+
+
+.div_valor_receita{
+    float:right;
+    display: table;
+    background-color: transparent;
+    width: auto;
+
+
+    height: 60px;
+
+}
+
+.texto_valor_receita{
+    font-family: RobotoRegular, Arial, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+
+}
+
+.div_tipos_receita{
+    float:right;
+    display: table;
+    padding-top: 14px;
+
+
+}
+
+
+
+
+.texto_tipos_receita{
+    font-family: RobotoRegular, Arial, sans-serif;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+
+
+.barra_receita{
+    background-color: #F9FDFD;
+    min-height: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.barra_receita_total{
+
+
+}
+
+
+
+div#grafico_barra_receita{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.barra_lucro_mai{
+    height: 80px;
+    background-color: #0DCC0F;
+    font-weight: bold;
+    font-size: 30pt;
+
+    border-bottom: solid #0d820f 5px;
+
+
+
+
+
+
+}
+.spn_sald{
+    font-family: RobotoThin, Arial, sans-serif;
+    color: #ffffff;
+    height: 30px;
+    float: left;
+    font-weight: bold;
+    font-size: 30pt;
+    text-align: left;
+    min-width: 450px;
+    padding-top: 22px;
+
+}
+
+.spn_sald_1{
+    font-family: RobotoThin, Arial, sans-serif;
+    color: #fafafa;
+    height: 30px;
+    float: left;
+    font-weight: bold;
+    font-size: 30pt;
+    text-align: left;
+    min-width: 50%;
+    padding-top: 22px;
+    background-color: #FF2C0D;
+}
+
+
+.saldo_barra_fundo{
+    background-color: #FF2C0D;
+    width: 100%;
+    height: 90px;
+    border-bottom: solid rgba(0, 0, 0, 0.53) 5px;
+}
+
+.span_despesa{
+    font-family: RobotoThin, Arial, sans-serif;
+    color: #ffffff;
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    padding-top: 22px;
+}
+
+
+
+
+.table_llistar{
+    font-size: 14pt;
+    color: #f9fcff;
+}
+
+.data_listar{
+    font-size: 14pt;
+    color: #f9fcff;
+    font-family: RobotoRegular Arial, sans-serif;
+}
